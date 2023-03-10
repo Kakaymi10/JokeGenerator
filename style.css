@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0 auto;
+    width: 95%;
+    text-align: center;
+}
+body{
+    height: 70vh;
+
+    background-color: black;
+    color: white;
+}
+.header{
+    margin-top: 2%;
+    padding: 1em;
+}
+h2{
+    font-size: 60px;
+    border: 2px white solid;
+    border-bottom: none;
+    border-radius: 200px 200px 0 0;
+}
+h1{
+   
+    color: yellow;
+    font-size: 30px;
+    border: 2px white solid;
+    border-top: none;
+    padding-bottom: .5em;
+    padding-top: .7em;
+}
+.intro{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-style: italic;
+    font-weight: bold;
+    border: 2px white solid;
+}
+.joke{
+    background-color: white;
+    color: black;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -16px;
+    border-radius: 20px;
+    position: static;
+    
+}
+.setup{
+    font-size: 1.3em;
+    font-weight: 800;
+    padding-top: 1em;
+}
+.cent{
+    background-color:  blueviolet;
+    height: 11em;
+    border-radius: 0px 20px 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    clip-path: polygon(14% 19%, 40% 20%, 100% 20%, 100% 100%, 45% 100%, 0 100%, 0 0);
+    z-index: 1;
+    width: 100%;
+}
+.display{
+    margin: auto;
+    top: 50%;
+    color: white;
+    font-size: 1.3em;
+
+}
+
+.button {
+    margin-top: 1.5em;
+    padding-top: .2em;
+    height: 5vh;
+    font-weight: 900;
+    font-size: larger;
+    top: 50%;
+    border-radius: 20px;
+    background-color: blueviolet;
+    transition: .5s;
+    position: static;
+}
+.button:hover{
+    background-color: rgb(88, 27, 146);
+}
+
+.copyright{
+    font-size: x-small;
+    bottom: 0;
+    margin-top: 10%;
+}
